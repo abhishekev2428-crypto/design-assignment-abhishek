@@ -1,7 +1,4 @@
-module RCA(input [3:0]A,[3:0]B,cin,output [3:0]S,cout);
-wire w1,w2,w3;
-fulladd f1(A[0],B[0],cin,S[0],w1);
-fulladd f2(A[1],B[1],w1,S[1],w2);
-fulladd f3(A[2],B[2],w2,S[2],w3);
-fulladd f4(A[3],B[3],w3,S[3],cout);
-endmodule
+
+<img width="1080" height="571" alt="WhatsApp Image 2026-06-10 at 10 04 16 AM" src="https://github.com/user-attachments/assets/b2a480fd-118c-4b68-be4e-f53c16dd27ba" />
+A Ripple Carry Adder is a digital circuit used to add two binary numbers. It is constructed by connecting multiple full adders in series, where the carry output of one stage is connected to the carry input of the next stage. Each full adder adds a pair of input bits along with the carry received from the previous stage. The carry signal propagates from the least significant bit (LSB) to the most significant bit (MSB), creating a ripple effect through the adder. The final output consists of the sum bits and the last carry-out bit. Ripple Carry Adders are simple and easy to design, but their speed is limited because each stage must wait for the carry from the previous stage before producing its result.
+
