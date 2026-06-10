@@ -1,12 +1,2 @@
-module BCD(input [3:0]A,[3:0]B,cin,output [3:0]S,cout);
-wire [3:0]w;
-wire w5,w6,w7,w8;
-RCA R1(A,B,cin,w,w5);
-and(w6,w[3],w[2]);
-and(w7,w[3],w[1]);
-or(w8,w5,w6,w7);
-
-RCA R2(w,{1'b0,w8,w8,1'b0},1'b0,S,cout);
-
-
-endmodule
+<img width="1080" height="543" alt="image" src="https://github.com/user-attachments/assets/16038735-ee33-41ba-abd9-7e1e2d205250" />
+A BCD (Binary Coded Decimal) Adder is a digital circuit used to add two decimal digits represented in BCD format. Initially, the two 4-bit BCD inputs are added using a binary adder. The resulting sum is checked to determine whether it exceeds the valid BCD range (0000–1001) or generates a carry. If either condition occurs, the result is considered invalid for BCD representation. A correction circuit then adds the binary value 0110 (decimal 6) to the intermediate sum. This adjustment converts the result into a valid BCD digit and produces the appropriate carry for the next decimal position. The design ensures accurate decimal arithmetic and is widely used in digital calculators, counters, and arithmetic processing units.
