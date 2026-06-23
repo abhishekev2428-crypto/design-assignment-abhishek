@@ -119,34 +119,3 @@ Through these assignments, I gained hands-on experience in:
 * Digital System Design Methodologies
 * Version Control using Git and GitHub
 
-Day 3
-
- Task 1
- [Sequence Detector (1110)](./day3/Sequence_Detector1110/)
-
- Task 2
- fifo Design with Face Detection Module](./day3/Task%202)
-
- Day 4
-
- [Block Memory Generator (BRAM)](./day4/Block%20Memory%20generator)
-
- Day 5
-
- Task 1
- [BCD Adder Testbench using SystemVerilog Interface](./day5/BCD_add_with_interface)
-
-Task 2
- [FIFO Testbench using SystemVerilog Interface](./day5/FIFO_with_interface)
-
- Day 6
-
-Task 1
-[FIFO Transaction Class using SystemVerilog OOP](./day6/transaction_class_fifo)
-
- Day 8
-
- APB Protocol
-
- [APB Design](day8/APB_PROTOCOL/DESIGN)
- [APB Testbench](day8/APB_PROTOCOL/Testbench)
